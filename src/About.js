@@ -3,7 +3,15 @@ import { Row, Col, Image } from 'react-bootstrap';
 import ReactPageScroller from 'react-page-scroller';
 import { useState } from 'react';
 
-
+// images
+import selfie from './images/about/selfie.jpg';
+import vancouver from './images/about/vancouver.gif';
+import clark from "./images/about/clark.jpg";
+import wsuv from './images/about/wsuv.png';
+import reactImage from './images/about/react.jpg';
+import c from './images/about/c.png';
+import aws from './images/about/aws.png';
+import python from './images/about/python.png';
 
 function About() {
 
@@ -18,7 +26,7 @@ function About() {
       <div className="component first-component">
           <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
             <Col xs={6} md={3}>
-              <Image fluid src='./selfie.jpg' rounded />
+              <Image fluid src={selfie} rounded />
             </Col>
             <Col xs={6} md={3}>
               <h3>
@@ -35,7 +43,7 @@ function About() {
       <div className="component">
         <Row className="justify-content-md-center" style={{'paddingTop' : '40px'}}>
             <Col xs={6} md={3}>
-              <Image fluid src='./vancouver.gif' rounded />
+              <Image fluid src={vancouver} rounded />
             </Col>
           </Row>
           <Row className="justify-content-md-center align-items-center">
@@ -59,10 +67,10 @@ function About() {
           </Row>
           <Row className="justify-content-md-center align-items-center">
             <Col xs={6} md={3}>
-              <Image fluid src='./clark.jpg' rounded />
+              <Image fluid src={clark} rounded />
             </Col>
             <Col xs={6} md={3}>
-              <Image fluid src='./wsuv.png' rounded />
+              <Image fluid src={wsuv} rounded />
             </Col>
           </Row>
           <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
@@ -90,16 +98,16 @@ function About() {
           </Row>
           <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
             <Col>
-              <Image fluid src='./react.jpg' rounded />
+              <Image fluid src={reactImage} rounded />
             </Col>
             <Col>
-              <Image fluid src='./c.png' rounded />
+              <Image fluid src={c} rounded />
             </Col>
             <Col>
-              <Image fluid src='./python.png' rounded />
+              <Image fluid src={python} rounded />
             </Col>
             <Col>
-              <Image fluid src='./aws.png' rounded />
+              <Image fluid src={aws} rounded />
             </Col>
           </Row>
           <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
