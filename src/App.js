@@ -1,10 +1,8 @@
-import './App.css';
 import About from './About';
 import Landing from './Landing';
 import Projects from './Projects';
 import Dashboard from './Dashboard';
 import Navigation from './Navigation';
-
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {

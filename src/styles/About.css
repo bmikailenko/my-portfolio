@@ -1,0 +1,9 @@
+.about-main-div {
+  background-color: #424242;
+  color: #FAFAFA;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased; 
+}

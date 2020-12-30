@@ -1,7 +1,5 @@
-import './About.css'
 import { Row, Col, Image } from 'react-bootstrap';
-import ReactPageScroller from 'react-page-scroller';
-import { useState } from 'react';
+import './styles/About.css'
 
 // images
 import selfie from './images/about/selfie.jpg';
@@ -14,16 +12,10 @@ import aws from './images/about/aws.png';
 import python from './images/about/python.png';
 
 function About() {
-
-  const [currentPage, setCurrentPage] = useState(0);
-
-  function handlePageChange (number) {
-    setCurrentPage(number);
-  }
-
-  function FirstComponent() {
-    return(
-      <div className="component first-component">
+  
+  return (
+    <div className="about-main-div">
+      <div>
           <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
             <Col xs={6} md={3}>
               <Image fluid src={selfie} rounded />
@@ -34,14 +26,10 @@ function About() {
               </h3>
             </Col>
           </Row>
-      </div>    
-    )
-  }
+      </div> 
 
-  function SecondComponent() {
-    return(
-      <div className="component">
-        <Row className="justify-content-md-center" style={{'paddingTop' : '40px'}}>
+      <div>
+        <Row className="justify-content-md-center" style={{'paddingTop' : '80px'}}>
             <Col xs={6} md={3}>
               <Image fluid src={vancouver} rounded />
             </Col>
@@ -52,20 +40,17 @@ function About() {
             </Col>
           </Row>
       </div>
-    )
-  }
 
-  function ThirdComponent() {
-    return(
-      <div className="component">
-          <Row className="justify-content-md-center" style={{'paddingTop' : '40px'}}>
+      <div>
+          <Row className="justify-content-md-center" style={{'paddingTop' : '80px'}}>
             <Col md='auto'>
               <h3>
                 Education:
               </h3>   
             </Col>  
           </Row>
-          <Row className="justify-content-md-center align-items-center">
+          <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
+            <Col md='auto'></Col>
             <Col xs={6} md={3}>
               <Image fluid src={clark} rounded />
             </Col>
@@ -83,13 +68,9 @@ function About() {
             </Col>
           </Row>
         </div>
-    )
-  }
-  
-  function FourthComponent() {
-    return(
-      <div className="component">
-          <Row className="justify-content-md-center" style={{'paddingTop' : '40px'}}>
+
+        <div>
+          <Row className="justify-content-md-center" style={{'paddingTop' : '80px'}}>
             <Col md='auto'>
               <h3>
                 Interests:
@@ -110,7 +91,7 @@ function About() {
               <Image fluid src={aws} rounded />
             </Col>
           </Row>
-          <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
+          <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px', 'paddingBottom' : '80px'}}>
             <Col>
               React JS was the reason I pursued a degree in Computer Science
             </Col>
@@ -125,23 +106,7 @@ function About() {
             </Col>
           </Row>
       </div>
-    )
-  }
-  
-  return (
-    <>
-      <ReactPageScroller
-          pageOnChange={handlePageChange}
-          customPageNumber={currentPage}
-          animationTimer={500}
-          renderAllPagesOnFirstRender={true}
-        >
-        <FirstComponent />
-        <SecondComponent />
-        <ThirdComponent />
-        <FourthComponent />
-      </ReactPageScroller>
-    </>
+    </div>
   )
 }
 

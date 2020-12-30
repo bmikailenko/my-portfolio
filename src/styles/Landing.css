@@ -1,0 +1,22 @@
+.landing-main-div {
+  background-color: #212121;
+  color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased; 
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin-top: 4vw;
+  width: 80%;
+  height: 50%;
+  font-size: 4vw;
+  background-color:#424242;
+}

@@ -1,8 +1,12 @@
+import './styles/Landing.css';
 
 function Landing() {
 
   return (
-    <div>
+    <div className='landing-main-div'>
+      <div className='center-div'>
+            Hello, please refer to the tabs to see my info.
+      </div>
     </div>
   )
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
-import './Dashboard.css';
+import './styles/Dashboard.css';
 import Fade from 'react-reveal/Fade';
 
 function Dashboard() {
   return (
       <div className="dashboardbg">
         <Fade top>
-          <div className="center-div transparent p-5 rounded shadow">
+          <div className="dashboard-center-div transparent p-5 rounded shadow">
                 <h1>Dashboard</h1>
                 <Form>
                   <Form.Group controlId="formBasicUsername">
