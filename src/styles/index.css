@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-html, body, #app, #app>div {
+html, body, #app, #app>div, #root {
   margin: 0;
   height: 100%;
   width: 100%;
