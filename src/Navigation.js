@@ -7,6 +7,7 @@ function Navigation() {
   return (
     <Navbar className='custom-navbar'>
       <Navbar.Brand className='custom-brand' href="/">Ben Mikailenko | Software Engineer</Navbar.Brand>
+      <Navbar.Brand className='custom-brand-small' href="/">B</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
         <Nav>

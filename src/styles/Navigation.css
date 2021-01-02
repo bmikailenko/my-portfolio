@@ -1,5 +1,12 @@
-/* .custom-navbar {
-  background-color: #212121;
-  border-bottom: 1px solid #424242;
-  height: 6vh;
-} */
+.custom-brand-small {
+  display: none !important;
+}
+
+@media (max-width: 320px) {
+  .custom-brand {
+    display: none !important;
+  }
+  .custom-brand-small {
+    display: inline !important;
+  }
+}

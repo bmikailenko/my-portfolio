@@ -19,43 +19,30 @@
   right: 0;
   bottom: 25vh;
   left: 0;
-  width: 500px;
-  height: 360px;
+  width: 50%;
+  height: 50%;
   border-radius: 1px;
-}
-
-.center-div-dashboard{
-  background: rgba(122, 130, 136, 0.6)!important;
-  position: relative;
-  bottom: 0;
-  width: auto;
-  height: auto;
-  border-radius: 1px;
-}
-
-.center-div-profile{
-  height: 300px;
 }
 
 h1 {
   color: rgba(255, 255, 255, 0.8)!important;
-  padding-bottom: 10px;
+  padding-bottom: 5%;
   text-align: center;
 }
 
 p {
   color: rgba(255, 255, 255, 0.8)!important;
-  padding-top: 10px;
-}
-
-.block {
-  margin: auto;
-  top: 20px;
-  display: block;
-  width: 100%;
-  border: none;
+  padding-top: 5%;
 }
 
 .align-right {
   float: right;
+}
+
+@media (max-width: 320px) {
+  .dashboard-center-div{
+    top: 20%;
+    width: 100%;
+    height: 100%
+  }
 }
