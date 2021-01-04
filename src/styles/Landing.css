@@ -59,7 +59,7 @@ a.custom-link:active {
   color:black;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 992px) {
   .grid-container {
     display: grid;
     grid-template-columns: 100%;

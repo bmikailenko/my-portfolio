@@ -39,7 +39,7 @@ p {
   float: right;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 992px) {
   .dashboard-center-div{
     top: 20%;
     width: 100%;

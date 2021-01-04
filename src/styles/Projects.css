@@ -6,7 +6,7 @@
     -webkit-font-smoothing: antialiased; 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 992px) {
   .projects-main-div {
     font-size: 0.7rem;
   }
