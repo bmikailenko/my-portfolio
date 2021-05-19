@@ -124,17 +124,17 @@ function Projects() {
 
         <Row className="align-items-center" style={{'paddingTop' : '80px', 'textAlign' : 'center'}}>
           <Col>
-            <a class="text-secondary" href="/">
+            <a className="text-secondary" href="/">
               Home
             </a>
           </Col>
           <Col>
-            <a class="text-secondary" href="/about">
+            <a className="text-secondary" href="/about">
               About
             </a>
           </Col>
           <Col>
-            <a class="text-secondary" href="/projects">
+            <a className="text-secondary" href="/projects">
               Projects
             </a>
           </Col> 

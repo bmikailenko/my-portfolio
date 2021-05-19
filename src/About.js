@@ -52,25 +52,25 @@ function About() {
           </Row>
           <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
             <Col md='auto'></Col>
-            <Col xs={6} md={3}>
+            <Col>
               <Image fluid src={clark} rounded />
             </Col>
-            <Col xs={6} md={3}>
+            <Col>
               <Image fluid src={wsuv} rounded />
             </Col>
-            <Col xs={6} md={3}>
+            <Col>
               <Image fluid src={wsuv2} rounded />
             </Col>
           </Row>
-          <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
-            <Col xs={6} md={3}>
+          <Row xs={3} className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
+            <Col>
               Completed my AA degree in 2017 focused towards Business Administration at Clark College, Vancouver
             </Col>
-            <Col xs={6} md={3}>
+            <Col>
               Completed my Bachelors degree in Computer Science 
               at Washington State Univeristy, Vancouver in May 2021
             </Col>
-            <Col xs={6} md={3}>
+            <Col>
               I'm working on completing my Master in Computer Science 
               at Washington State Univeristy, Vancouver in May 2023
             </Col>
@@ -99,7 +99,7 @@ function About() {
               <Image fluid src={aws} rounded />
             </Col>
           </Row>
-          <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px', 'paddingBottom' : '80px'}}>
+          <Row xs={4} className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px', 'paddingBottom' : '80px'}}>
             <Col>
               React JS was the reason I pursued a degree in Computer Science
             </Col>
@@ -119,17 +119,17 @@ function About() {
 
         <Row className="align-items-center" style={{'paddingTop' : '40px', 'textAlign' : 'center'}}>
           <Col>
-            <a class="text-secondary" href="/">
+            <a className="text-secondary" href="/">
               Home
             </a>
           </Col>
           <Col>
-            <a class="text-secondary" href="/about">
+            <a className="text-secondary" href="/about">
               About
             </a>
           </Col>
           <Col>
-            <a class="text-secondary" href="/projects">
+            <a className="text-secondary" href="/projects">
               Projects
             </a>
           </Col> 
