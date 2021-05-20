@@ -1,6 +1,9 @@
-import './styles/Projects.css'
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
+
+//styles
+import './styles/Projects.css';
 
 //images
 import binaryTree from './images/projects/binary-tree.png';
@@ -14,6 +17,7 @@ import reToNfa from './images/projects/re-to-nfa.png';
 import voterApp from './images/projects/voter-app.png';
 
 function Projects() {
+  const { t } = useTranslation();
 
   return (
     <div className='projects-main-div'>
@@ -35,10 +39,10 @@ function Projects() {
           </Row>
           <Row className="align-items-center" style={{'paddingTop' : '40px', 'textAlign' : 'center'}}>
             <Col>
-            An online application hosted on AWS Amplify that provides log-in, user data, groups, and user data mining
+              {t('An online application hosted on AWS Amplify that provides log-in, user data, groups, and user data mining.1')}
             </Col>
             <Col>
-            An online application in React using Amazon Web Services that provides users with personalized data from the NOAA API
+              {t('An online application in React using Amazon Web Services that provides users with personalized data from the NOAA API.1')}
             </Col>
           </Row>
 
@@ -57,10 +61,10 @@ function Projects() {
           </Row>
           <Row className="align-items-center" style={{'paddingTop' : '40px', 'textAlign' : 'center'}}>
             <Col>
-              A C application that attempts to approximate the value of pi by integrating 4/(1+x^2) through trapezoidal, Simpsons, Simpsons 3rd degree, and booles methods
+              {t('A C application that attempts to approximate the value of pi by integrating 4/(1+x^2) through trapezoidal, Simpsons, Simpsons 3rd degree, and booles methods.1')}
             </Col>
             <Col>
-              A C application that solves the Dining Philosophers problem using I/O scheduling and shared mutex variables
+              {t('A C application that solves the Dining Philosophers problem using I/O scheduling and shared mutex variables.1')}
             </Col>
           </Row>
 
@@ -78,10 +82,10 @@ function Projects() {
           </Row>
           <Row className="align-items-center" style={{'paddingTop' : '40px', 'textAlign' : 'center'}}>
             <Col>
-              A C application that creates a dynamically allocated binary search tree with insert, search, delete, and traverse functionality. 
+              {t('A C application that creates a dynamically allocated binary search tree with insert, search, delete, and traverse functionality..1')}
             </Col>
             <Col>
-              A C application that finds the roots of a given polynomial with dk root finding methods
+              {t('A C application that finds the roots of a given polynomial with dk root finding methods.1')}
             </Col>
           </Row>
 
@@ -99,11 +103,10 @@ function Projects() {
           </Row>
           <Row className="align-items-center" style={{'paddingTop' : '40px', 'textAlign' : 'center'}}>
             <Col>
-              A C program that evaluates integreals using taylor, euler, and rk methods
+              {t('A C program that evaluates integreals using taylor, euler, and rk methods.1')}
             </Col>
             <Col>
-              A C application that transforms postfix regular expressions to
-              a nondeterministic finite automation with dynamically allocated memory
+              {t('A C application that transforms postfix regular expressions to a nondeterministic finite automation with dynamically allocated memory.1')}
             </Col>
           </Row>
 
@@ -116,7 +119,7 @@ function Projects() {
           </Row>
           <Row className="align-items-center" style={{'paddingTop' : '40px', 'textAlign' : 'center'}}>
             <Col>
-              A C program that performs the LZW compression for lossless file compression using bit data and dynamically allocated memory.
+              {t('A C program that performs the LZW compression for lossless file compression using bit data and dynamically allocated memory..1')}
             </Col>
           </Row>
         
@@ -125,17 +128,17 @@ function Projects() {
         <Row className="align-items-center" style={{'paddingTop' : '80px', 'textAlign' : 'center'}}>
           <Col>
             <a className="text-secondary" href="/">
-              Home
+              {t('Home.1')}
             </a>
           </Col>
           <Col>
             <a className="text-secondary" href="/about">
-              About
+              {t('About.1')}
             </a>
           </Col>
           <Col>
             <a className="text-secondary" href="/projects">
-              Projects
+              {t('Projects.1')}
             </a>
           </Col> 
         </Row>

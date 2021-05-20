@@ -1,4 +1,7 @@
 import { Row, Col, Image } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
+
+// styles
 import './styles/About.css'
 
 // images
@@ -13,6 +16,7 @@ import aws from './images/about/aws.png';
 import python from './images/about/python.png';
 
 function About() {
+  const { t } = useTranslation();
   
   return (
     <div className="about-main-div">
@@ -23,7 +27,7 @@ function About() {
             </Col>
             <Col xs={6} md={3}>
               <h3>
-                A little bit about me..
+                {t('A little bit.1')} {t('about me.1')}..
               </h3>
             </Col>
           </Row>
@@ -37,7 +41,7 @@ function About() {
           </Row>
           <Row className="justify-content-md-center align-items-center">
             <Col xs={6} md={3}>
-              I was born and raised in Vancouver WA, USA
+              {t('I was born and raised in Vancouver WA, USA.1')}
             </Col>
           </Row>
       </div>
@@ -46,7 +50,7 @@ function About() {
           <Row className="justify-content-md-center" style={{'paddingTop' : '80px'}}>
             <Col md='auto'>
               <h3>
-                Education:
+                {t('Education.1')}:
               </h3>   
             </Col>  
           </Row>
@@ -64,15 +68,13 @@ function About() {
           </Row>
           <Row xs={3} className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
             <Col>
-              Completed my AA degree in 2017 focused towards Business Administration at Clark College, Vancouver
+              {t('Completed my AA degree in 2017 focused towards Business Administration at Clark College, Vancouver.1')}
             </Col>
             <Col>
-              Completed my Bachelors degree in Computer Science 
-              at Washington State Univeristy, Vancouver in May 2021
+              {t("Completed my Bachelor's degree in Computer Science at Washington State Univeristy, Vancouver in May 2021.1")}
             </Col>
             <Col>
-              I'm working on completing my Master in Computer Science 
-              at Washington State Univeristy, Vancouver in May 2023
+              {t("I'm working on completing my Master's in Computer Science at Washington State University, Vancouver in May 2023.1")}
             </Col>
           </Row>
         </div>
@@ -81,7 +83,7 @@ function About() {
           <Row className="justify-content-md-center" style={{'paddingTop' : '80px'}}>
             <Col md='auto'>
               <h3>
-                Interests:
+                {t('Interests.1')}:
               </h3>   
             </Col>  
           </Row>
@@ -101,16 +103,16 @@ function About() {
           </Row>
           <Row xs={4} className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px', 'paddingBottom' : '80px'}}>
             <Col>
-              React JS was the reason I pursued a degree in Computer Science
+              {t('React JS was the reason I pursued a degree in Computer Science.1')}
             </Col>
             <Col>
-              For my first two years I was mainly programming in C
+              {t('For my first two years I was mainly programming in C.1')}
             </Col>
             <Col>
-              Then I mainly programmed in Python for my remaining two years
+              {t('Then I mainly programmed in Python for my remaining two years.1')}
             </Col>
             <Col>
-              When I'm not finishing assignments, I'm studying Amazon Web services
+              {t("When I'm not finishing assignments, I'm studying Amazon Web services.1")}
             </Col>
           </Row>
 
@@ -120,17 +122,17 @@ function About() {
         <Row className="align-items-center" style={{'paddingTop' : '40px', 'textAlign' : 'center'}}>
           <Col>
             <a className="text-secondary" href="/">
-              Home
+              {t('Home.1')}
             </a>
           </Col>
           <Col>
             <a className="text-secondary" href="/about">
-              About
+              {t('About.1')}
             </a>
           </Col>
           <Col>
             <a className="text-secondary" href="/projects">
-              Projects
+              {t('Projects.1')}
             </a>
           </Col> 
         </Row>

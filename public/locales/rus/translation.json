@@ -1,0 +1,128 @@
+{
+    "Hello": {
+      "1": "Добро Пожаловать"
+    },
+    "Projects": {
+      "1": "Проекты"
+    },
+    "My": {
+      "1": "Моя"
+    },
+    "Weather": {
+      "1": "Погода"
+    },
+    "Dining": {
+      "1": "Обедающие"
+    },
+    "Philosophers": {
+      "1": "Философы"
+    },
+    "Pi": {
+      "1": "Пи"
+    },
+    "Approx": {
+      "1": "Приближение"
+    },
+    "DK": {
+      "1": "DK"
+    },
+    "Root": {
+      "1": "Kорневая"
+    },
+    "Finding": {
+      "1": "Hаходка"
+    },
+    "More": {
+      "1": "Eще"
+    },
+    "Links": {
+      "1": "Ссылки"
+    },
+    "Software Engineer": {
+      "1": "Инженер Программист"
+    },
+    "About": {
+      "1": "Обо мне"
+    },
+    "Ben Mikailenko": {
+        "1": "Бен Михайленко"
+    },
+    "GitHub": {
+        "1": "ГитХаб"
+    },
+    "LinkedIn": {
+        "1": "ЛинкдИн"
+    },
+    "Instagram": {
+        "1": "Инстаграм"
+    },
+    "A little bit": {
+      "1": "Hемного"
+    },
+    "about me": {
+      "1": "обо мне"
+    },
+    "I was born and raised in Vancouver WA, USA": {
+      "1": "Я родился и вырос в городе Ванкувер, штат Вашингтон, США"
+    },
+    "Education": {
+      "1": "Образование"
+    },
+    "Completed my AA degree in 2017 focused towards Business Administration at Clark College, Vancouver": {
+      "1": "Я получил степень AA в 2017 году, специализируясь на бизнес-администрировании, в колледже Кларка, Ванкувер."
+    },
+    "Completed my Bachelor's degree in Computer Science at Washington State Univeristy, Vancouver in May 2021": {
+      "1": "Я получил степень бакалавра компьютерных наук в Университете штата Вашингтон, Ванкувер, в мае 2021 года."
+    },
+    "I'm working on completing my Master's in Computer Science at Washington State University, Vancouver in May 2023": {
+      "1": "Я работаю над получением степени магистра компьютерных наук в Университете штата Вашингтон, Ванкувер, в мае 2023 года."
+    },
+    "Interests": {
+      "1": "Интересы"
+    },
+    "React JS was the reason I pursued a degree in Computer Science": {
+        "1": "React JS стал причиной того, что я получил степень в области компьютерных наук."
+    },
+    "For my first two years I was mainly programming in C": {
+        "1": "Первые два года я в основном программировал на C"
+    },
+    "Then I mainly programmed in Python for my remaining two years": {
+        "1": "Затем я в основном программировал на Python в течение оставшихся двух лет."
+    },
+    "When I'm not finishing assignments, I'm studying Amazon Web services": {
+        "1": "Когда я не заканчиваю задания, я изучаю веб-сервисы Amazon."
+    },
+    "Home": {
+      "1": "Главная"
+    },
+    "An online application hosted on AWS Amplify that provides log-in, user data, groups, and user data mining": {
+      "1": "Онлайн-приложение, размещенное на AWS Amplify, которое обеспечивает вход в систему, пользовательские данные, группы и интеллектуальный анализ пользовательских данных."
+    },
+    "An online application in React using Amazon Web Services that provides users with personalized data from the NOAA API": {
+      "1": "Онлайн-приложение на React с использованием Amazon Web Services, которое предоставляет пользователям персонализированные данные из NOAA API."
+    },
+    "A C application that attempts to approximate the value of pi by integrating 4/(1+x^2) through trapezoidal, Simpsons, Simpsons 3rd degree, and booles methods": {
+      "1": "Приложение C, которое пытается аппроксимировать значение числа Пи путем интегрирования 4 / (1 + x ^ 2) с помощью методов трапеции, Симпсонов, Симпсонов 3-й степени и логических методов."
+    },
+    "A C application that solves the Dining Philosophers problem using I/O scheduling and shared mutex variables": {
+      "1": "Приложение C, которое решает проблему Dining Philosophers с помощью планирования ввода-вывода и общих мьютексных переменных."
+    },
+    "A C application that creates a dynamically allocated binary search tree with insert, search, delete, and traverse functionality.": {
+      "1": "Приложение C, которое создает динамически выделяемое двоичное дерево поиска с функциями вставки, поиска, удаления и обхода."
+    },
+    "A C application that finds the roots of a given polynomial with dk root finding methods": {
+      "1": "Приложение C, которое находит корни заданного многочлена с помощью методов поиска корней dk"
+    },
+    "A C program that evaluates integreals using taylor, euler, and rk methods": {
+      "1": "Программа на C, вычисляющая целые числа с использованием методов Тейлора, Эйлера и rk."
+    },
+    "A C application that transforms postfix regular expressions to a nondeterministic finite automation with dynamically allocated memory": {
+      "1": "Приложение C, которое преобразует постфиксные регулярные выражения в недетерминированную конечную автоматизацию с динамически выделяемой памятью."
+    },
+    "A C program that performs the LZW compression for lossless file compression using bit data and dynamically allocated memory.": {
+      "1": "Программа на языке C, выполняющая сжатие LZW для сжатия файлов без потерь с использованием битовых данных и динамически выделяемой памяти."
+    },
+    "B": {
+      "1": "Б"
+  }
+  }

@@ -1,8 +1,12 @@
-import './styles/Landing.css';
 import Typing from 'react-typing-animation';
 import Fade from 'react-reveal/Fade';
+import { useTranslation } from 'react-i18next';
+
+// styles
+import './styles/Landing.css';
 
 function Landing() {
+  const { t } = useTranslation();
 
   return (
     <>
@@ -12,7 +16,7 @@ function Landing() {
           <div className='grid-item-1'>
             <div className="hello-box">
               <Typing>
-                Hello
+                {t('Hello.1')}
               </Typing> 
             </div>   
           </div>
@@ -21,41 +25,42 @@ function Landing() {
             <div className='grid-item-header'>
               <Typing>
                 <Typing.Delay ms={800} />
-                <a className="custom-link" href="/projects">Projects</a>
+                <a className="custom-link" href="/projects">{t('Projects.1')}</a>
               </Typing> 
             </div>
             <Fade delay={1600}>
               <div>
                 <a className="custom-link" rel="noopener noreferrer" target={"_blank"} href="https://master.dm2em2om6h4m5.amplifyapp.com/">
-                  My Weather
+                  {t('My.1')} {t('Weather.1')}
+                  
                 </a>
               </div>
             </Fade>
             <Fade delay={2000}>
               <div>
                 <a className="custom-link" rel="noopener noreferrer" target={"_blank"} href="https://onlinegdb.com/ByE5VWu6P">
-                  Dining Philosophers
+                  {t('Dining.1')} {t('Philosophers.1')}
                 </a>
               </div>
             </Fade>
             <Fade delay={2400}>
               <div>
                 <a className="custom-link" rel="noopener noreferrer" target={"_blank"} href="https://onlinegdb.com/6vLPprDvH">
-                  Pi Approx
+                  {t('Pi.1')} {t('Approx.1')}
                 </a>
               </div>
             </Fade>
             <Fade delay={2800}>
               <div>
                 <a className="custom-link" rel="noopener noreferrer" target={"_blank"} href="https://onlinegdb.com/HJyFAWOaD">
-                  DK Root Finding
+                  {t('DK.1')} {t('Root.1')} {t('Finding.1')}
                 </a>
               </div> 
             </Fade>
             <Fade delay={3200}>
               <div>
                 <a className="custom-link" href="/projects">
-                  More
+                  {t('More.1')}
                 </a>
               </div> 
             </Fade>
@@ -64,30 +69,29 @@ function Landing() {
           <div className='grid-item-3'>
             <div className='grid-item-header'>
               <Typing>
-                
                 <Typing.Delay ms={800} />
-                Links
+                  {t('Links.1')}
                 <Typing.Delay ms={800} />
               </Typing> 
             </div>
             <Fade delay={1600}>
               <div>
                 <a className="custom-link" rel="noopener noreferrer" target={"_blank"} href="https://github.com/bmikailenko">
-                  Github
+                  {t('GitHub.1')}
                 </a>
               </div>
             </Fade>
             <Fade delay={2000}>
               <div>
                 <a className="custom-link" rel="noopener noreferrer" target={"_blank"} href="https://www.linkedin.com/in/bmikailenko/">
-                  LinkedIn
+                  {t('LinkedIn.1')}
                 </a>
               </div>
             </Fade>
             <Fade delay={2400}>
               <div>
                 <a className="custom-link" rel="noopener noreferrer" target={"_blank"} href="https://www.instagram.com/ben_mika_/">
-                  Instagram
+                  {t('Instagram.1')}
                 </a>
               </div>
             </Fade>

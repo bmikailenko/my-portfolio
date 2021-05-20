@@ -1,13 +1,16 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './styles/index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './i18next';
 
 ReactDOM.render(
-  <React.Fragment>
-    <App />
+  <React.Fragment> 
+    <Suspense fallback={(<div></div>)} >
+      <App />
+    </Suspense>
   </React.Fragment>,
   document.getElementById('root')
 );

@@ -2,6 +2,19 @@
   display: none !important;
 }
 
+.dropdown-menu {
+  min-width: max-content !important;
+  border: none !important;
+}
+
+.dropdown-toggle:after {
+  display: none !important;
+}
+
+.dropdown-menu-right {
+  left: -39% !important;
+}
+
 @media (max-width: 992px) {
   .custom-brand {
     display: none !important;

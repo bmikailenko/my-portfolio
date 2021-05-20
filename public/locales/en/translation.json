@@ -1,0 +1,130 @@
+{
+    "Hello": {
+        "1": "Hello"
+    },
+    "Projects": {
+        "1": "Projects"
+    },
+    "My": {
+        "1": "My"
+    },
+    "Weather": {
+        "1": "Weather"
+    },
+    "Dining": {
+        "1": "Dining"
+    },
+    "Philosophers": {
+        "1": "Philosophers"
+    },
+    "Pi": {
+        "1": "Pi"
+    },
+    "Approx": {
+        "1": "Approx"
+    },
+    "DK": {
+        "1": "DK"
+    },
+    "Root": {
+        "1": "Root"
+    },
+    "Finding": {
+        "1": "Finding"
+    },
+    "More": {
+        "1": "More"
+    },
+    "Links": {
+        "1": "Links"
+    },
+    "Software Engineer": {
+        "1": "Software Engineer"
+    },
+    "About": {
+        "1": "About"
+    },
+    "Ben Mikailenko": {
+        "1": "Ben Mikailenko"
+    },
+    "GitHub": {
+        "1": "GitHub"
+    },
+    "LinkedIn": {
+        "1": "LinkedIn"
+    },
+    "Instagram": {
+        "1": "Instagram"
+    },
+    "A little bit": {
+        "1": "A little bit"
+    },
+      "about me": {
+        "1": "about me"
+    },
+    "I was born and raised in Vancouver WA, USA": {
+        "1": "I was born and raised in Vancouver WA, USA"
+    },
+    "Education": {
+        "1": "Education"
+    },
+    "Completed my AA degree in 2017 focused towards Business Administration at Clark College, Vancouver": {
+        "1": "Completed my AA degree in 2017 focused towards Business Administration at Clark College, Vancouver"
+    },
+    "Completed my Bachelor's degree in Computer Science at Washington State Univeristy, Vancouver in May 2021": {
+        "1": "Completed my Bachelor's degree in Computer Science at Washington State Univeristy, Vancouver in May 2021"
+    },
+    "I'm working on completing my Master's in Computer Science at Washington State University, Vancouver in May 2023": {
+        "1": "I'm working on completing my Master's in Computer Science at Washington State University, Vancouver in May 2023"
+    },
+    "Interests": {
+        "1": "Interests"
+    },
+    "React JS was the reason I pursued a degree in Computer Science": {
+        "1": "React JS was the reason I pursued a degree in Computer Science"
+    },
+    "For my first two years I was mainly programming in C": {
+        "1": "For my first two years I was mainly programming in C"
+    },
+    "Then I mainly programmed in Python for my remaining two years": {
+        "1": "Then I mainly programmed in Python for my remaining two years"
+    },
+    "When I'm not finishing assignments, I'm studying Amazon Web services": {
+        "1": "When I'm not finishing assignments, I'm studying Amazon Web services"
+    },
+    "Home": {
+        "1": "Home"
+    },
+    "An online application hosted on AWS Amplify that provides log-in, user data, groups, and user data mining": {
+        "1": "An online application hosted on AWS Amplify that provides log-in, user data, groups, and user data mining"
+    },
+    "An online application in React using Amazon Web Services that provides users with personalized data from the NOAA API": {
+        "1": "An online application in React using Amazon Web Services that provides users with personalized data from the NOAA API"
+    },
+    "A C application that attempts to approximate the value of pi by integrating 4/(1+x^2) through trapezoidal, Simpsons, Simpsons 3rd degree, and booles methods": {
+        "1": "A C application that attempts to approximate the value of pi by integrating 4/(1+x^2) through trapezoidal, Simpsons, Simpsons 3rd degree, and booles methods"
+    },
+    "A C application that solves the Dining Philosophers problem using I/O scheduling and shared mutex variables": {
+        "1": "A C application that solves the Dining Philosophers problem using I/O scheduling and shared mutex variables"
+    },
+    "A C application that creates a dynamically allocated binary search tree with insert, search, delete, and traverse functionality.": {
+        "1": "A C application that creates a dynamically allocated binary search tree with insert, search, delete, and traverse functionality."
+    },
+    "A C application that finds the roots of a given polynomial with dk root finding methods": {
+        "1": "A C application that finds the roots of a given polynomial with dk root finding methods"
+    },
+    "A C program that evaluates integreals using taylor, euler, and rk methods": {
+        "1": "A C program that evaluates integreals using taylor, euler, and rk methods"
+    },
+    "A C application that transforms postfix regular expressions to a nondeterministic finite automation with dynamically allocated memory": {
+        "1": "A C application that transforms postfix regular expressions to a nondeterministic finite automation with dynamically allocated memory"
+    },
+    "A C program that performs the LZW compression for lossless file compression using bit data and dynamically allocated memory.": {
+        "1": "A C program that performs the LZW compression for lossless file compression using bit data and dynamically allocated memory."
+    },
+    "B": {
+        "1": "B"
+    }
+}
+
+

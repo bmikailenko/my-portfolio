@@ -5,6 +5,7 @@ body {
     sans-serif;
   letter-spacing: 0.02em;
   font-weight: 5;
+  word-wrap: break-word;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
