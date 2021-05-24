@@ -1,4 +1,4 @@
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col, Container, Image } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 
 // styles
@@ -19,7 +19,7 @@ function About() {
   const { t } = useTranslation();
   
   return (
-    <div className="about-main-div">
+    <Container fluid className="about-main-div">
       <div>
           <Row className="justify-content-md-center align-items-center" style={{'paddingTop' : '40px'}}>
             <Col xs={6} md={3}>
@@ -83,7 +83,7 @@ function About() {
             <Col sm>
               <Row md={10}>
                 <Col className="text-center">
-                  <Image src={wsuv2} rounded />
+                  <Image fluid src={wsuv2} rounded />
                 </Col>
               </Row>
               <Row>
@@ -175,7 +175,7 @@ function About() {
 
         <Row style={{'paddingTop' : '80px'}}></Row>
 
-    </div>
+    </Container>
   )
 }
 
