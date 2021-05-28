@@ -1,3 +1,4 @@
+import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';

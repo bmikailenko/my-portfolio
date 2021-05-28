@@ -1,3 +1,4 @@
+import React from 'react';
 import Typing from 'react-typing-animation';
 import Fade from 'react-reveal/Fade';
 import { useTranslation } from 'react-i18next';
@@ -9,7 +10,7 @@ function Landing() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <div>
       <div className='main-div'>
         <div className='grid-container'>
 
@@ -105,7 +106,7 @@ function Landing() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
